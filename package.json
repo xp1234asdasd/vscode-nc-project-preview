@@ -6,7 +6,7 @@
   "engines": {
     "vscode": "^1.73.0"
   },
-  "repository": "git@codeup.aliyun.com:6128d2e757e7cd986dfae5ab/B-FE-2/webide-vscode-extensions.git",
+  "repository": "https://github.com/xp1234asdasd/vscode-nc-project-preview",
   "publisher": "xupeng6530",
   "categories": [
     "Other"
