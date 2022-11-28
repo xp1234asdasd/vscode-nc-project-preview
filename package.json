@@ -1,8 +1,8 @@
 {
-  "name": "nc-start-project",
-  "displayName": "nc-start-project",
+  "name": "nc-project-preview",
+  "displayName": "Project preview",
   "description": "start current project and preview it if it is web project",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "engines": {
     "vscode": "^1.73.0"
   },
@@ -21,7 +21,7 @@
     "commands": [
       {
         "command": "nc-start-project.showPreview",
-        "title": "预览"
+        "title": "Porject Preview"
       }
     ],
     "configuration": [
