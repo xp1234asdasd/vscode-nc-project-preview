@@ -1,0 +1,68 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+    background: #1d2432;
+}
+.refresh {
+    margin-right: 4px;
+}
+.refresh:hover {
+    cursor: pointer;
+}
+.input {
+    width: 100%;
+    line-height: 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+    cursor: pointer;
+    background: #111827;
+    border: none;
+    text-decoration: underline;
+    outline: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #cccccc;
+    padding: 0 5px;
+}
+.container {
+    position: relative;
+    display: flex;
+    height: calc(100% - 40px);
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 6px;
+}
+.svg {
+    color: #c5c5c5;
+}
+.iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow-y: scroll;
+}
+.loading {
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+img {
+    width: 100%;
+}
